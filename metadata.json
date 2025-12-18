@@ -1,0 +1,5 @@
+{
+  "name": "卓德管理助手",
+  "description": "專業的音訊素材管理工具，幫助製作人追蹤 Sample Packs、VST 與音效素材。具備 AI 自動分類與描述功能。",
+  "requestFramePermissions": []
+}
