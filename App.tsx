@@ -342,7 +342,7 @@ const App: React.FC = () => {
                 <Boxes className="w-6 h-6 text-studio-accent" />
               </div>
               <h1 className="text-xl md:text-2xl font-bold tracking-tight text-studio-fg hidden sm:block">
-                卓德<span className="text-studio-accent">管理庫</span>
+                卓德<span className="text-studio-accent">管理助手</span>
               </h1>
             </div>
           </div>
