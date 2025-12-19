@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { AssetType, AnalysisResult } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export const analyzeAsset = async (name: string, userNotes: string): Promise<AnalysisResult> => {
   // Use gemini-3-flash-preview for basic text tasks like description generation and classification
